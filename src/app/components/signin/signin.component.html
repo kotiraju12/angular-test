@@ -1,0 +1,66 @@
+<div fxLayout="row" fxLayoutAlign="center center">
+    <div fxFlex="1 1 0" fxLayoutAlign="center center" class="signin-container">
+        <div fxLayout="column" >
+            <div fxFlex >
+                <div style="max-width: 20rem;" fxLayout="column" fxLayoutGap="10px" >
+                    <div class="image-container"><img src="../../../assets/images/logo.svg" /></div>
+                    <h1>Sign in</h1>
+                    <h3>Don't have an account? <a style="color:#1D4ED8" routerLink="/signup">Sign up</a></h3>
+                    <div style="border:1px solid rgb(59 130 246 / .5); border-radius: 6px; padding: 16px;color:#1D4ED8; font-size: 14px; background-color: #EFF6FF ">
+                        <p>You are browsing <strong>Fuse Demo.</strong>  Click on the "Sign in" button to access the Demo and Documentation.</p>
+                    </div>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Email address</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                    <div fxLayout="row" fxLayoutAlign="space-between center">
+                        <div><mat-checkbox color="primary" class="example-margin">Remember me</mat-checkbox></div>
+                        <div><a style="color:#1D4ED8">Forgot Password?</a></div>
+                    </div>
+                    <button mat-raised-button color="primary" style="height:50px; border-radius: 50px;">Sign in</button>
+                    <div fxLayout="row" fxLayoutAlign="space-between center">
+                        <div style="width:100px"><mat-divider></mat-divider> </div>
+                        <div>Or continue with</div>
+                        <div style="width: 100px;" ><mat-divider></mat-divider></div>
+                    </div>
+                    <div class="social-media-buttons" fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="16px">
+                        <button mat-raised-button style="background-color: #EFF6FF;border:1px solid black; border-radius: 25px; width:100%" >
+                            <mat-icon>facebook</mat-icon>
+                        </button>
+                        <button mat-raised-button style="background-color: #EFF6FF;border:1px solid black; border-radius: 25px; width:100%" >
+                            <mat-icon><mat-icon ><img src="../../../assets/images/socialmedia/twitter.png" style="width:30px; height:20px"></mat-icon></mat-icon>
+                        </button>
+                        <button mat-raised-button style="background-color: #EFF6FF;border:1px solid black; border-radius: 25px; width:100%" >
+                            <mat-icon ><img src="../../../assets/images/socialmedia/github.webp" style="width:30px; height:20px"></mat-icon>
+                        </button>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div fxFlex="1 1 0" fxLayoutAlign="center center" class="signin-description" fxHide.lt-md="true">
+        <div fxLayoutAlign="center center">
+            <div fxFlex>
+                <div fxLayout="column" style="max-width: 500px; margin: 25px;">
+                    <h1 style="color:white; font-size: 50px; line-height: 55px;">Welcome to our Community</h1>
+                    <p style="color:#94A3B8; font-size: large;">Fuse helps developers to build organized and well coded dashboards full of beautiful and rich modules. Join us and start building your application today.</p>
+                </div>
+                <div fxLayout="row" fxLayoutAlign="center center" style="margin: 25px;">
+                    <img src="../../../assets/images/female-1.jpg" style="border-radius: 50%; width:50px; height: 50px;">
+                    <img src="../../../assets/images/female-2.jpg" style="border-radius: 50%; width:50px; height: 50px">
+                    <img src="../../../assets/images/male-3.jpg" style="border-radius: 50%; width:50px; height: 50px">
+                    <img src="../../../assets/images/male-4.jpg" style="border-radius: 50%; width:50px; height: 50px">
+                    <p style="color:#94A3B8; font-size: large; margin:10px">More than 17k people joined us, it's your turn</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
